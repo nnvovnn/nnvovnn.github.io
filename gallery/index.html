@@ -108,30 +108,6 @@
     <!-- 预加载动画 -->
     <!-- 页面预加载动画 -->
 
-<div id='loader'>
-  <link rel="stylesheet" href="/js/loaded/index.css" >
-  <div class="loading-left-bg"></div>
-  <div class="loading-right-bg"></div>
-  <div class="spinner-box">
-    <div class="configure-border-1">
-      <div class="configure-core"></div>
-    </div>
-    <div class="configure-border-2">
-      <div class="configure-core"></div>
-    </div>
-    <div class="loading-word">loading...</div>
-  </div>
-</div>
-
-<script>
-  var endLoading = function () {
-    document.body.style.overflow = 'auto';
-    document.getElementById('loader').classList.add("loading");
-  }
-  window.addEventListener('DOMContentLoaded',endLoading);
-  
-</script>
-
     
     <!-- 判断是否为暗黑风格 -->
     <!-- 判断是否为黑夜模式 -->
@@ -624,16 +600,16 @@
         <div class="copyright">
   <ul class="post-copyright">
     <li class="post-copyright-author">
-    <strong>author:  </strong>青云依兮</a>
+    <strong>作者 :  </strong>青云依兮</a>
     </li>
     <li class="post-copyright-link">
-    <strong>link:  </strong>
-    <a href="/gallery/index.html" target="_blank" title="gallery">https://1422756921.github.io/gallery/index.html</a>
+    <strong>文章链接 :  </strong>
+    <a href="/gallery/index.html" target="_blank" title="gallery">https://hexo.qinglin.co/gallery/index.html</a>
     </li>
     <li class="post-copyright-license">
-      <strong>Copyright notice:   </strong>
-      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
-      reprint policy. If reproduced, please indicate source!
+      <strong>版权声明 :   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
     </li>
   </ul>
 <div>
@@ -974,7 +950,7 @@
 				}
 			},
 			play() {
-				let bgImgDelay = '' || '60000'
+				let bgImgDelay = '' || '30000'
 				let delay = parseInt(bgImgDelay) || 180000;
 				this.time = setInterval(this.autoPlay, delay);
 			},

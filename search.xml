@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>关于博客的事</title>
+      <link href="/2021/11/20/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BA%8B/"/>
+      <url>/2021/11/20/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BA%8B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo博客"><a href="#Hexo博客" class="headerlink" title="Hexo博客"></a>Hexo博客</h2><p>Hello，这里是青云依兮的Hexo博客，是我所有站点中唯一一个不怕被攻击的</p><p>Hexo是个快速、简洁且高效的博客框架，它是一款基于Node.js的静态博客生成程序，作者是中国台湾tommy351。</p><p>它的安装运行等甚至生成文章页面 生成目录，网站配置都是在爱代码模式下进行的。还有就是要学会使用Hexo，就得学会使用Git，并且对Git常用基础命令要有所了解，还有就是需要安装Node.js，这个软件是Hexo本地搭建必不可少的工具，值得一提的是Hexo博客可以部署到GitHub、Gitee、GitLab、Coding、七牛，都是完全免费的，可以让你实现免服务器，免域名搭建一个完整的博客。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/11/18/hello-world/"/>
       <url>/2021/11/18/hello-world/</url>

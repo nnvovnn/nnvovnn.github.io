@@ -108,30 +108,6 @@
     <!-- 预加载动画 -->
     <!-- 页面预加载动画 -->
 
-<div id='loader'>
-  <link rel="stylesheet" href="/js/loaded/index.css" >
-  <div class="loading-left-bg"></div>
-  <div class="loading-right-bg"></div>
-  <div class="spinner-box">
-    <div class="configure-border-1">
-      <div class="configure-core"></div>
-    </div>
-    <div class="configure-border-2">
-      <div class="configure-core"></div>
-    </div>
-    <div class="loading-word">loading...</div>
-  </div>
-</div>
-
-<script>
-  var endLoading = function () {
-    document.body.style.overflow = 'auto';
-    document.getElementById('loader').classList.add("loading");
-  }
-  window.addEventListener('DOMContentLoaded',endLoading);
-  
-</script>
-
     
     <!-- 判断是否为暗黑风格 -->
     <!-- 判断是否为黑夜模式 -->
@@ -615,16 +591,16 @@
         <div class="copyright">
   <ul class="post-copyright">
     <li class="post-copyright-author">
-    <strong>author:  </strong>青云依兮</a>
+    <strong>作者 :  </strong>青云依兮</a>
     </li>
     <li class="post-copyright-link">
-    <strong>link:  </strong>
-    <a href="/2021/11/18/hello-world/" target="_blank" title="Hello World">https://1422756921.github.io/2021/11/18/hello-world/</a>
+    <strong>文章链接 :  </strong>
+    <a href="/2021/11/18/hello-world/" target="_blank" title="Hello World">https://hexo.qinglin.co/2021/11/18/hello-world/</a>
     </li>
     <li class="post-copyright-license">
-      <strong>Copyright notice:   </strong>
-      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
-      reprint policy. If reproduced, please indicate source!
+      <strong>版权声明 :   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
     </li>
   </ul>
 <div>
@@ -636,6 +612,25 @@
 <div class="post-nav">
 
 
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+    </div>
+    <a href="/2021/11/20/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BA%8B/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> Prev:
+        <div class="title-text">关于博客的事</div>
+      </div>
+      
+      <!-- <div class="content">
+        Hexo博客Hello，这里是青云依兮的Hexo博客，是我所有站点中唯一一个不怕被攻击的
+Hexo是个快速、简洁且高效的
+      </div> -->
+    </a>
+  </div>
 
 
 
@@ -984,7 +979,7 @@
 				}
 			},
 			play() {
-				let bgImgDelay = '' || '60000'
+				let bgImgDelay = '' || '30000'
 				let delay = parseInt(bgImgDelay) || 180000;
 				this.time = setInterval(this.autoPlay, delay);
 			},
