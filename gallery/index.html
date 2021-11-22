@@ -415,13 +415,13 @@
         <h2>
           <span>
             <i class="fas fa-search" aria-hidden="true"></i>
-            <span class="title">Search</span>
+            <span class="title">本地搜索</span>
           </span>
           <i class="fas fa-times close" pointer style="float:right;" aria-hidden="true" @click.self="cancelDialogVisible()"></i>
         </h2>
         <form class="site-search-form">
           <input type="text"
-            placeholder="Please enter keywords"
+            placeholder="请输入关键字"
             id="local-search-input" 
             @click="getSearchFile()"
             class="st-search-input"
@@ -562,11 +562,11 @@
         <div class="gallery-group-main">
     
   <figure class="gallery-group">
-  <img class="gallery-group-img" src='https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c' alt="Group Image Gallery">
+  <img class="gallery-group-img lazyload placeholder" src="https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c" class="lazyload placeholder" data-srcset="https://pic1.zhimg.com/80/v2-23c3820e8abfb1cef689531af2dc6d09_1440w.jpg?source=1940ef5c" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="Group Image Gallery">
   <figcaption>
   <div class="gallery-group-name">壁纸</div>
   <p>收藏的一些壁纸</p>
-  <a href='/bizhi'></a>
+  <a href="/bizhi"></a>
   </figcaption>
   </figure>
   
@@ -600,14 +600,14 @@
         <div class="copyright">
   <ul class="post-copyright">
     <li class="post-copyright-author">
-    <strong>作者 :  </strong>青云依兮</a>
+    <strong>作者:  </strong>青云依兮</a>
     </li>
     <li class="post-copyright-link">
-    <strong>文章链接 :  </strong>
-    <a href="/gallery/index.html" target="_blank" title="gallery">https://1422756921.github.io/gallery/index.html</a>
+    <strong>文章链接:  </strong>
+    <a href="/gallery/index.html" target="_blank" title="gallery">https://a1422756921.gitee.io/gallery/index.html</a>
     </li>
     <li class="post-copyright-license">
-      <strong>版权声明 :   </strong>
+      <strong>版权声明:   </strong>
       本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
       许可协议。转载请注明出处!
     </li>
@@ -1399,7 +1399,7 @@
       },
       mounted() {
         const that = this;
-        var copy = 'copy';
+        var copy = '复制';
         /* code */
         var initCopyCode = function () {
           var copyHtml = '';
